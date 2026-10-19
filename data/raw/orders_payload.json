@@ -1,0 +1,49 @@
+[
+  {
+    "order_id": "ORD-1001",
+    "timestamp": "2026-10-18T10:30:00Z",
+    "customer": {
+      "customer_id": "CUST-55",
+      "country": "MX"
+    },
+    "payment": {
+      "method": "credit_card",
+      "status": "COMPLETED"
+    },
+    "items": [
+      { "product_id": "PROD-A", "price": "$120.00", "quantity": 2, "discount": 0.1 },
+      { "product_id": "PROD-B", "price": "45.50", "quantity": 1, "discount": 0.0 }
+    ]
+  },
+  {
+    "order_id": "ORD-1002",
+    "timestamp": "2026-10-18T11:15:00Z",
+    "customer": {
+      "customer_id": "CUST-82",
+      "country": "CO"
+    },
+    "payment": {
+      "method": "paypal",
+      "status": "COMPLETED"
+    },
+    "items": [
+      { "product_id": "PROD-C", "price": " $300.75 USD ", "quantity": 1, "discount": 0.15 },
+      { "product_id": "PROD-A", "price": "$120.00", "quantity": 3, "discount": 0.05 }
+    ]
+  },
+  {
+    "order_id": "ORD-1003",
+    "timestamp": "2026-10-18T12:00:00Z",
+    "customer": {
+      "customer_id": "CUST-10",
+      "country": "CL"
+    },
+    "payment": {
+      "method": "credit_card",
+      "status": "CANCELLED"
+    },
+    "items": [
+      { "product_id": "PROD-D", "price": "INVALID_PRICE", "quantity": 1, "discount": 0.0 }
+    ]
+  }
+]
